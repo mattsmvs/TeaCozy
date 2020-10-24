@@ -1,0 +1,132 @@
+html, body {
+    font-family: Helvetica, sans-serif;
+    font-size:22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/*Header*/
+
+header {
+    width: 100%;
+    height: 3.13rem;
+    border-bottom: 0.04rem solid seashell;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+nav li {
+    display: inline-flex;
+}
+
+li a {
+    text-decoration: underline;
+    color: seashell;
+    margin: 0 1rem;
+}
+
+header img {
+    height: 2.27rem;
+    width: auto;
+    margin-left: 0.46rem;
+    margin-top: 0.68rem;
+}
+
+/*Main*/
+
+main {
+    width: 100%;
+    height: auto;
+    margin-top: 3.18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2, h4 {
+    margin: 0.68rem 0;
+}
+
+/*Mission*/
+
+#mission {
+    width: 54.54rem;
+    height: 31.8rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./Resources/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0.9rem;
+    background-size: cover;
+}
+
+.mission-statement {
+    background-color: black;
+    width: 54.54rem;
+    height: auto;
+}
+
+/*Featured Tea*/
+
+#featured-tea {
+    width: 42.42rem;
+    height: auto;
+    margin-top: 3.18rem;
+}
+
+figure {
+    display: inline-flex;
+    flex-direction: column;
+    margin-right: 0.68rem;
+    margin-left: 0.40rem;
+}
+
+figure img {
+    width: 13.63rem;
+    height: 9.09rem;
+}
+
+figcaption {
+    margin-top: 0.46rem;
+}
+
+/*Locations*/
+
+#locations {
+    width: 45.45rem;
+    height: 22.72rem;
+    margin-top: 3.18rem;
+    background-image: url(./Resources/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 -3.18rem;
+    background-size: cover;
+}
+
+.address {
+    width: 13.63rem;
+    height: auto;
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: black;
+    margin-right: 1.81rem;
+    margin-top: 0.68rem;
+}
+
+.contact {
+    height: 9.09rem;
+    width: auto;
+}
+
+footer {
+    text-align: left;
+    margin-left: 0.9rem;
+}
